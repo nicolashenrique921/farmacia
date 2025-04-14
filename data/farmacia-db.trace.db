@@ -1,0 +1,25 @@
+2025-04-13 21:43:55.734196-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PACIENTES" not found; SQL statement:
+-- João Silva, nascido em 1990-05-20
+INSERT INTO pacientes (id, nome, cpf, telefone, data_nascimento) 
+VALUES (1, 'João Silva', '11111111111', '11999999999', DATE '1990-05-20') [42102-232]
+2025-04-13 21:43:55.756273-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PACIENTES" not found; SQL statement:
+-- Maria Oliveira, nascida em 1985-08-12
+INSERT INTO pacientes (id, nome, cpf, telefone, data_nascimento) 
+VALUES (2, 'Maria Oliveira', '22222222222', '11988888888', DATE '1985-08-12') [42102-232]
+2025-04-13 21:43:55.757273-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PACIENTES" not found; SQL statement:
+-- Carlos Lima, nascido em 1992-03-10
+INSERT INTO pacientes (id, nome, cpf, telefone, data_nascimento) 
+VALUES (3, 'Carlos Lima', '33333333333', '11977777777', DATE '1992-03-10') [42102-232]
+2025-04-13 21:43:55.758362-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PACIENTES" not found; SQL statement:
+-- Ana Souza, nascida em 1995-01-25
+INSERT INTO pacientes (id, nome, cpf, telefone, data_nascimento) 
+VALUES (4, 'Ana Souza', '44444444444', '11966666666', DATE '1995-01-25') [42102-232]
+2025-04-13 21:43:55.759275-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PACIENTES" not found; SQL statement:
+-- Paulo Mendes, nascido em 1988-11-03
+INSERT INTO pacientes (id, nome, cpf, telefone, data_nascimento) 
+VALUES (5, 'Paulo Mendes', '55555555555', '11955555555', DATE '1988-11-03') [42102-232]
